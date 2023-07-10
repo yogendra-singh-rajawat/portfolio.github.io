@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p[ersonal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <img src="cross.png" onclick="closemenu()" class="cross2">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    
+                </ul>
+                <img src="images/menu.png" onclick="openmenu()" class="cross">
+                
+            </nav>
+            <div class="header-text">
+                <p>UI/UX & Fullstack web Designer</p>
+                <h1>Hello, I'm <span>Y</span>ogendra Singh <br> From Madhogarh</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/paji.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p><b>Hello,</b> friends my name is yogendra singh rajawat. I live in
+                         madhogarh. I am fullstack Website Developer. I have experties in  
+                         HTML, CSS, JavaScript. I have 4 months of experience,
+                         I am working on python right now
+                         My aim is to help people grow their business.
+                         I always try to improve myself and the whole society<br><br>
+                         Name- <b>Yogendra Singh</b><br>
+                         D/b- <b>09/01/2005</b><br>
+                         Locatiom- <b>Madhogarh</b><br>
+                         Phone- <b>7355002553</b><br>
+                         Mail- <b>yogendrasinghrajavat754@gmail.com</b>
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer of web and interfaces 
+                                & mobile app</li>
+                            <li><span>Web Devlopment</span><br>Web And Devlopment</li>
+                            <li><span>App Devlopment</span><br>Android/IOS App Devlopment 
+                                & handling</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Self</span><br>I Learned It By Myself</li>
+                            <li><span>Web Devlopment</span><br>I Have 2+ Months Experience 
+                                In Web Devlopment</li>
+                            <li><span>App Devlopment</span><br>I Am Beginner In This,
+                                 Iut I Have Completed 2 Project On Android App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>School</span><br>I Have Done My Intermediate
+                                 From- BKIC (Madhogarh)</li>
+                            <li><span>Collage</span><br>Now I Am Persuing Secound Year 
+                                Of Polytechnic From G.P. Madhogarh</li>
+                            <li><span>Skills</span><br>Codding, Database knowledge, 
+                                Debugging knowledge, OS.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/web.png">
+                    <h2>Web Designing</h2>
+                    <p>i am a fresser web. devloper without
+                        any. experience so i am not. a pro in programming</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="images/uiux.png"> 
+                    <h2>UI/UX Designing</h2>
+                    <p>i am a fresser web. devloper without
+                        any. experience so i am not. a pro in programming</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="images/app.png">
+                    <h2>App Designing</h2>
+                    <p>i am a fresser web. devloper without
+                        any. experience so i am not. a pro in programming</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!------------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work 1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This My Best Best App & My First App Of This Type 
+                            I Was Very Excited When I Devlopping This App
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work img 2.jpeg">
+                    <div class="layer">
+                        <h3>Website</h3>
+                        <p>this is my this the best app by using html,css, javascript. 
+                            with me is my first appfirst app</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work img 3.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>this the best apgp by using with mme is my first app</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----------------contact----------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><img src="images/mail.png">yogendrasinghrajavat754@gmail.com</p>
+                    <p><img src="images/call.png">7355002553</p>
+                    <div class="images/social-icons">
+                        <a href=""><img src="images/Instagram-Icon.png" class="cimage"></a>
+                        <a href=""><img src="images/linkedin.png" class="cimage"></a>
+                        <a href=""><img src="images/facebook.jpg" class="cimage"></a>
+                    </div>
+                    <a href="images/download (4).png" class="btn btn2">Download APK</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Yogendra Singh. <span>💖</span> All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-150px";
+        }
+    </script>
+    <script>
+        const msg = document.getElementById("msg")
+        msg.innerHTML = "Message send succesfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzsyGaqVTAK3WsrqmvLLnNBwbKiLs8tRVJgPCkFQy7OFTRqCsyJI3bUfv44y1rkinWn9g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
